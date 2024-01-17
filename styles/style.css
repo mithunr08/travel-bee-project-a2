@@ -1,25 +1,93 @@
-/* footer styles start */
-.footer-section{
-background-color: rgba(19, 19, 24, 0.05);
-text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
 }
-.footer-title , .footer-icons{
+.container {
+  margin: 0 auto;
+  width: 83%;
+  max-width: 1170px;
+}
+p {
+  color: #5a5a5d;
+}
+/* newsleter styles */
+.newsleter-section{
     display: flex;
-    justify-content: center; 
-    gap: 1%;
+    justify-content:center;
+    gap: 2%;
+    margin-bottom:2%;
+}
+.newsleter-form{
+    border-radius: 13px;
+    border: 1px solid #FF5400;
+    width: 40%;
+    line-height: 50px;
+    margin: 10px 0;
+    padding-top: 30px;
+}
+.newsleter-image>img{
+    width: 100%;
+    margin:1% 0 1% 0;
+    object-fit: cover;
+    vertical-align:text-bottom;
+}
+.newsleter-form input{
+    border-radius: 6px;
+    width: 80%;
+    margin: 10px 6%;
+    border: none;
+    background-color:rgba(19, 19, 24, 0.05);
+    padding: 1%;
+}
+.newsleter-form > h2 , p{
+    margin: 30px  30px 20px 6%; 
+    line-height: 30px;
+}
+#sub-btn{
+    background-color: #FF5400;
+    color: white;
+    font-weight: 800;
+}
+/* footer styles  */
+.footer-section {
+  background-color: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  padding: 80px;
+}
+.footer-title,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.footer-icons{
+    padding: 20px 0 40px 0;
+}
+.title-name {
+  font-size: 1.5rem;
+}
+.title-name span {
+  color: #ff5400;
 }
 .title-icon{
-    padding-top: 2%;
+    margin-top:0;
 }
-.title-name{
-    font-size: 1.5rem; 
+hr {
+  margin: 0 20%;
 }
-.title-name  span{
-    color: #FF5400;
-}
-.footer-description , small , hr{
-    color: #5A5A5D;
-}
-hr{
-    margin: 0 28%;
+@media only screen and (max-width:600px){
+    
+    
+    .newsleter-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .newsleter-form{
+        width: 100%;
+    }
+    hr{
+        margin: 0;
+    }
 }
