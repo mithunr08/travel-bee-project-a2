@@ -228,6 +228,9 @@ hr {
     .agency-name{
         font-size: 22px;
     }
+    .agency-name > img{
+        width: 20%;
+    }
     .banner{
         width: 100%;
         object-fit: cover;
@@ -265,7 +268,7 @@ hr {
     .box{
         flex-direction: column;
     }
-    .box1,.box2{
+    .box1 , .box2{
         width: 100%;
         margin-top: 2%;
     }
