@@ -9,8 +9,35 @@
   width: 83%;
   max-width: 1170px;
 }
-p {
+p , ul{
   color: #5a5a5d;
+}
+/* popular tour styles */
+.popular-tour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+.tour-description{
+    line-height: 30px;
+}
+.tour-description > h1{
+    padding: 0 0 7.4% 0;
+    font-weight: 800;
+}
+.tour-description > input{
+    color: azure;
+background-color:#FF5400;
+border: none;
+border-radius: 5px;
+font-weight: 760;
+padding: 1.55%;
+margin-top: 0.5%;
+}
+.tour-image{
+    width: 100%;
 }
 /* newsleter styles */
 .newsleter-section{
@@ -41,7 +68,7 @@ p {
     background-color:rgba(19, 19, 24, 0.05);
     padding: 1%;
 }
-.newsleter-form > h2 , p{
+.newsleter-form > h2 , .newsleter-form > p {
     margin: 30px  30px 20px 6%; 
     line-height: 30px;
 }
@@ -79,7 +106,14 @@ hr {
 }
 @media only screen and (max-width:600px){
 
-    
+    .popular-tour{
+        flex-direction: column;
+    }
+    .tour-image >img{
+        width: 100%;
+        object-fit: cover;
+        margin: 4% 0;
+    }
     .newsleter-section{
         flex-direction: column;
         width: 100%;
