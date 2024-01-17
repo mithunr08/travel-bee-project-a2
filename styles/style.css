@@ -78,7 +78,7 @@ hr {
   margin: 0 20%;
 }
 @media only screen and (max-width:600px){
-    
+
     
     .newsleter-section{
         flex-direction: column;
@@ -87,6 +87,9 @@ hr {
     .newsleter-form{
         width: 100%;
     }
+    .title-name {
+        font-size: 1.2rem;
+      }
     hr{
         margin: 0;
     }
