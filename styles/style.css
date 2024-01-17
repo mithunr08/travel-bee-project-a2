@@ -12,6 +12,14 @@
 p , ul{
   color: #5a5a5d;
 }
+.agency-name{
+display: flex;
+margin: 2%;
+font-size :28px;
+}
+.agency-name >h1 > span{
+    color:#FF5400;
+}
 /* banner styles */
 .banner{
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -74,6 +82,9 @@ margin:0 18%;
 .tour-description > h1{
     padding: 0 0 7.4% 0;
     font-weight: 800;
+}
+.tour-description > p{
+    text-align: left;
 }
 .tour-description > input{
     color: azure;
@@ -170,6 +181,9 @@ background: rgba(233, 68, 68, 0.05);
     color: white;
     font-weight: 800;
 }
+.newsleter-form>p{
+    text-align: left;
+}
 .newsleter-form > hr{
     margin: 0;
     opacity: 0.2;
@@ -205,6 +219,9 @@ hr {
 /* responsive */
 
 @media only screen and (max-width:600px){
+    .agency-name{
+        font-size: 22px;
+    }
     .banner{
         width: 100%;
         object-fit: cover;
