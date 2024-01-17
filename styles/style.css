@@ -107,7 +107,13 @@ margin-top: 0.5%;
     font-size: 40px;
     font-weight: 800;
 }
-
+.destination-images{
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.row-2{
+margin: 1% 1%;
+}
 /* Choose us styles */
 .choose-us > h1 , .choose-us>p{
     text-align: center;
@@ -248,6 +254,13 @@ hr {
         width: 100%;
         object-fit: cover;
         margin: 4% 0;
+    }
+    .destination-images{
+        flex-direction: column;
+    }
+    .row-1 , .row-2 , .row-3 , img{
+    width: 100%;
+    object-fit: cover;
     }
     .box{
         flex-direction: column;
