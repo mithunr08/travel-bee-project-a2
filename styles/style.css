@@ -87,6 +87,51 @@ margin-top: 0.5%;
 .tour-image{
     width: 100%;
 }
+/*  choose destination styles */
+.destination>h1,p{
+    text-align: center;
+    margin: 2%;
+}
+.destination>h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Choose us styles */
+.choose-us > h1 , .choose-us>p{
+    text-align: center;
+    margin: 2%;
+}
+.box{
+    display: flex;
+    gap: 2.8%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.box1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width:48.6%;
+}
+.box2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 48.6%;
+}
+.box3{
+    text-align: left;
+    width: 50%;
+    margin: 2% 28%;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.box3 > h2 ,p{
+    text-align: left;
+}
 /* newsleter styles */
 .newsleter-section{
     display: flex;
@@ -124,6 +169,10 @@ margin-top: 0.5%;
     background-color: #FF5400;
     color: white;
     font-weight: 800;
+}
+.newsleter-form > hr{
+    margin: 0;
+    opacity: 0.2;
 }
 /* footer styles  */
 .footer-section {
@@ -181,6 +230,18 @@ hr {
         width: 100%;
         object-fit: cover;
         margin: 4% 0;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box1,.box2{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .box3{
+        width: 100%;
+        text-align: left;
+        margin: 2% 0 ;
     }
     .newsleter-section{
         flex-direction: column;
