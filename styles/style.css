@@ -1,3 +1,25 @@
-body{
-    background-color: rebeccapurple;
+/* footer styles start */
+.footer-section{
+background-color: rgba(19, 19, 24, 0.05);
+text-align: center;
+}
+.footer-title , .footer-icons{
+    display: flex;
+    justify-content: center; 
+    gap: 1%;
+}
+.title-icon{
+    padding-top: 2%;
+}
+.title-name{
+    font-size: 1.5rem; 
+}
+.title-name  span{
+    color: #FF5400;
+}
+.footer-description , small , hr{
+    color: #5A5A5D;
+}
+hr{
+    margin: 0 28%;
 }
