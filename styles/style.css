@@ -225,6 +225,7 @@ hr {
     .banner{
         width: 100%;
         object-fit: cover;
+        background-position: center;
     }
     .input-field{
         flex-direction: column;
